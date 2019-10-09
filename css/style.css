@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width:5%;
+    background: red;
+    margin-bottom: 5px;
+    transition:margin-left 2s linear;
+
+}
+div:nth-child(2){
+    background: green;
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+section{
+    background: rgba(0, 0, 0, .2);
+    padding:5px;
+
+}
+section:hover div{
+margin-left: 95%;
+}
